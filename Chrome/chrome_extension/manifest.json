@@ -1,0 +1,16 @@
+{
+	"name": "Discord-Unix",
+	"description": "Unix-like commands to search browser history",
+	"permissions": [
+		"history"
+	],
+	"background": {
+		"scripts": [
+			"socket.io.js",
+			"background.js"
+		]
+	},
+	"version": "1.0",
+	"minimum_chrome_version": "9",
+	"manifest_version": 2
+}
